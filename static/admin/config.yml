@@ -1,12 +1,12 @@
 backend:
-  name: test-repo
+  name: github
+  repo: yrsingh1223/codeblob
 
 media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: yrsingh1223
-    repo: yrsingh1223/codeblob
+  - name: blog
     label: Blog
     folder: content/blog
     create: true
